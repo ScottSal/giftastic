@@ -1,0 +1,58 @@
+@charset "utf-8";
+	
+/* Custom Styles*/
+html {
+	height: 100%;
+}
+body {
+    background: lavender;
+    background-size: 100%;
+	min-height: 100%;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+}
+button {
+	color: white;
+}
+/* Typography */
+p {
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+/* Grid */
+.dyn-div {
+	display: inline-block;
+	padding: 5px;
+}
+button, 
+input,
+label {
+	margin: 5px;
+	padding: 10px;
+}
+
+button,
+input[type="submit"] {
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: salmon;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: gray;
+}
+
+button.active {
+    background: gray;
+}
