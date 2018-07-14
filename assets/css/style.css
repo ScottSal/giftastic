@@ -28,6 +28,11 @@ p {
 	display: inline-block;
 	padding: 5px;
 }
+
+.comedyImg {
+	height: 250px;
+	width: 350px;
+
 button, 
 input,
 label {
